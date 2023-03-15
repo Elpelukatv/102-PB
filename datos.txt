@@ -11,5 +11,15 @@ clases de programacion basica
 	-- el archivo word no fue editado hay que activar --
 
 
+****MIERCOLES 15 de marzo 2023******
+	clase 4 - 8 (1/2)
+
+	ETIQUETAS DE HTML 
+	ESTRUCTURAS BASICAS DE HTML 
+	USO DEL PROMPT Y ALERT 
+	COMEMSANDO LA CREACION DEL JUEGO PIEDRA PAPEL O TIJERA 
+	 
+	-- LA CLASE 6 QUEDO A LA MITAD XD --
+
 
  
