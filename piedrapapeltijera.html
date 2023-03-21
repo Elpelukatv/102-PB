@@ -9,34 +9,27 @@
                function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+function eleccion (jugada) {
+  let resultado = ""
+ 
+  if (jugada == 1) {
+    resultado = "piedra";
+  } else if (jugada == 2) {
+    resultado ="papel";
+  } else if (jugada == 3) {
+    resultado ="tijera";
+  } else {
+    resultado ="elige un numero del 1-3";
+  }
+  return resultado
+}
 
 let jugador = 0;
 let compu = random(1, 3);
-
-while (true) {
   jugador = prompt("elige: 1 piedra, 2 para papel, 3 tijera");
-  if (jugador == 1) {
-    alert("elegiste piedra");
-    break;
-  } else if (jugador == 2) {
-    alert("elegiste papel");
-    break;
-  } else if (jugador == 3) {
-    alert("elegiste tijera");
-    break;
-  } else {
-    alert("elige un numero del 1-3");
-  }
-}
-
 // elije pc //
-if (compu == 1) {
-  alert("pc elije piedra");
-} else if (compu == 2) {
-  alert("pc elije papel");
-} else if (compu == 3) {
-  alert("pc elije tijera");
-}
+alert("pc elije: "+ eleccion(compu))
+alert("tu elije: "+ eleccion(jugador))
 
 if (compu == jugador) {
   alert("empate");
@@ -49,16 +42,12 @@ if (compu == jugador) {
 } else {
   alert("perdiste");
 }
-  
-
             </script>
     </head>
-
     <body>
         <h1>
         </h1>
         <p>
-
         </p>
     </body>
 </html>
